@@ -103,6 +103,10 @@ namespace ERP.Data
             .IsRequired();
       });
     }
+    public DbSet<DiaLy_QuocGia_KhuVuc> DiaLy_QuocGia_KhuVucs { get; set; }
+    public DbSet<DiaLy_VungMien> DiaLy_VungMiens { get; set; }
+    public DbSet<DiaLy_DiaDiem> DiaLy_DiaDiems { get; set; }
+    public DbSet<DiaLy_LoaiDiaDiem> DiaLy_LoaiDiaDiems { get; set; }
 
   }
 }
